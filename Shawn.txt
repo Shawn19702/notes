@@ -45,7 +45,7 @@ A abstract method does not contain a body
 If you use an abstract method the class must be abstract as well
 Abstract methods exist mainly for polymorphism
 The first concrete class in the inheritance hierarchy needs to implement all abstract methods
-You can pass the buck down meaning two different abstract classes doesn't need the same methods but a concrete subclass must contain all the methods from the two abstract classes
+You can pass the buck down meaning two different abstract classes doesn't need the same methods but a concrete subclass must contain all the methods from the two abstract classes such as animal and canine being abstract and dog being a subclass
 An abstract class can have both abstract and non abstract methods
 Every class in Java extends object
 A sub class overrides methods from the superclass
@@ -66,4 +66,3 @@ A subclass is always dependent on the superclass so the superclass must be finis
 Every constructor constructor could call to super. or this. but never could call to both
 A local variable still alive along until its method is complete
 A local variable can only be used if there in the scope which is within the method
-
